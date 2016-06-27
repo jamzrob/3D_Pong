@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CCC5E5271A902E4B001DB438 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC5E5261A902E4B001DB438 /* main.m */; };
+		CCC5E52A1A902E4B001DB438 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC5E5291A902E4B001DB438 /* AppDelegate.m */; };
+		CCC5E52D1A902E4B001DB438 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC5E52C1A902E4B001DB438 /* ViewController.m */; };
+		CCC5E5301A902E4B001DB438 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCC5E52E1A902E4B001DB438 /* Main.storyboard */; };
+		CCC5E5321A902E4B001DB438 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCC5E5311A902E4B001DB438 /* Images.xcassets */; };
+		CCC5E5351A902E4B001DB438 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCC5E5331A902E4B001DB438 /* LaunchScreen.xib */; };
+		CCC5E5411A902E4B001DB438 /* _DpongTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC5E5401A902E4B001DB438 /* _DpongTests.m */; };
+		CCC5E54B1A90312D001DB438 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCC5E54A1A90312D001DB438 /* CoreMotion.framework */; };
+		CCC5E54F1A9031F2001DB438 /* paddleView.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC5E54E1A9031F2001DB438 /* paddleView.m */; };
+		CCC5E5551A903ACF001DB438 /* ballView.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC5E5541A903ACF001DB438 /* ballView.m */; };
+		CCC5E5571A903CE8001DB438 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCC5E5561A903CE8001DB438 /* QuartzCore.framework */; };
+		CCCAA3901A905D2000CBC6C2 /* ball.png in Resources */ = {isa = PBXBuildFile; fileRef = CCCAA38F1A905D2000CBC6C2 /* ball.png */; };
+		CCCAA3941A90719C00CBC6C2 /* pongModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CCCAA3931A90719C00CBC6C2 /* pongModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CCC5E53B1A902E4B001DB438 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCC5E5191A902E4B001DB438 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCC5E5201A902E4B001DB438;
+			remoteInfo = 3Dpong;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CCC5E5211A902E4B001DB438 /* 3Dpong.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 3Dpong.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCC5E5251A902E4B001DB438 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCC5E5261A902E4B001DB438 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CCC5E5281A902E4B001DB438 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CCC5E5291A902E4B001DB438 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CCC5E52B1A902E4B001DB438 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CCC5E52C1A902E4B001DB438 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CCC5E52F1A902E4B001DB438 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CCC5E5311A902E4B001DB438 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CCC5E5341A902E4B001DB438 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CCC5E53A1A902E4B001DB438 /* 3DpongTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 3DpongTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCC5E53F1A902E4B001DB438 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCC5E5401A902E4B001DB438 /* _DpongTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _DpongTests.m; sourceTree = "<group>"; };
+		CCC5E54A1A90312D001DB438 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		CCC5E54D1A9031F2001DB438 /* paddleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = paddleView.h; sourceTree = "<group>"; };
+		CCC5E54E1A9031F2001DB438 /* paddleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = paddleView.m; sourceTree = "<group>"; };
+		CCC5E5531A903ACF001DB438 /* ballView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ballView.h; sourceTree = "<group>"; };
+		CCC5E5541A903ACF001DB438 /* ballView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ballView.m; sourceTree = "<group>"; };
+		CCC5E5561A903CE8001DB438 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		CCCAA38F1A905D2000CBC6C2 /* ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ball.png; path = "../../../../../Users/jamesraubenheimer/Downloads/Code Files 3/Chapters/Chapter 9/Sample Code/Blocker/Blocker/ball.png"; sourceTree = "<group>"; };
+		CCCAA3921A90719C00CBC6C2 /* pongModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pongModel.h; sourceTree = "<group>"; };
+		CCCAA3931A90719C00CBC6C2 /* pongModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = pongModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCC5E51E1A902E4B001DB438 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCC5E5571A903CE8001DB438 /* QuartzCore.framework in Frameworks */,
+				CCC5E54B1A90312D001DB438 /* CoreMotion.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCC5E5371A902E4B001DB438 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CCC5E5181A902E4B001DB438 = {
+			isa = PBXGroup;
+			children = (
+				CCC5E5561A903CE8001DB438 /* QuartzCore.framework */,
+				CCC5E54C1A9031D6001DB438 /* Shapes */,
+				CCC5E54A1A90312D001DB438 /* CoreMotion.framework */,
+				CCC5E5231A902E4B001DB438 /* 3Dpong */,
+				CCC5E53D1A902E4B001DB438 /* 3DpongTests */,
+				CCC5E5221A902E4B001DB438 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CCC5E5221A902E4B001DB438 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCC5E5211A902E4B001DB438 /* 3Dpong.app */,
+				CCC5E53A1A902E4B001DB438 /* 3DpongTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCC5E5231A902E4B001DB438 /* 3Dpong */ = {
+			isa = PBXGroup;
+			children = (
+				CCC5E5281A902E4B001DB438 /* AppDelegate.h */,
+				CCC5E5291A902E4B001DB438 /* AppDelegate.m */,
+				CCC5E52B1A902E4B001DB438 /* ViewController.h */,
+				CCC5E52C1A902E4B001DB438 /* ViewController.m */,
+				CCCAA38F1A905D2000CBC6C2 /* ball.png */,
+				CCC5E52E1A902E4B001DB438 /* Main.storyboard */,
+				CCC5E5311A902E4B001DB438 /* Images.xcassets */,
+				CCC5E5331A902E4B001DB438 /* LaunchScreen.xib */,
+				CCC5E5241A902E4B001DB438 /* Supporting Files */,
+			);
+			path = 3Dpong;
+			sourceTree = "<group>";
+		};
+		CCC5E5241A902E4B001DB438 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCC5E5251A902E4B001DB438 /* Info.plist */,
+				CCC5E5261A902E4B001DB438 /* main.m */,
+				CCCAA3921A90719C00CBC6C2 /* pongModel.h */,
+				CCCAA3931A90719C00CBC6C2 /* pongModel.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CCC5E53D1A902E4B001DB438 /* 3DpongTests */ = {
+			isa = PBXGroup;
+			children = (
+				CCC5E5401A902E4B001DB438 /* _DpongTests.m */,
+				CCC5E53E1A902E4B001DB438 /* Supporting Files */,
+			);
+			path = 3DpongTests;
+			sourceTree = "<group>";
+		};
+		CCC5E53E1A902E4B001DB438 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCC5E53F1A902E4B001DB438 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CCC5E54C1A9031D6001DB438 /* Shapes */ = {
+			isa = PBXGroup;
+			children = (
+				CCC5E54D1A9031F2001DB438 /* paddleView.h */,
+				CCC5E54E1A9031F2001DB438 /* paddleView.m */,
+				CCC5E5531A903ACF001DB438 /* ballView.h */,
+				CCC5E5541A903ACF001DB438 /* ballView.m */,
+			);
+			name = Shapes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCC5E5201A902E4B001DB438 /* 3Dpong */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCC5E5441A902E4B001DB438 /* Build configuration list for PBXNativeTarget "3Dpong" */;
+			buildPhases = (
+				CCC5E51D1A902E4B001DB438 /* Sources */,
+				CCC5E51E1A902E4B001DB438 /* Frameworks */,
+				CCC5E51F1A902E4B001DB438 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 3Dpong;
+			productName = 3Dpong;
+			productReference = CCC5E5211A902E4B001DB438 /* 3Dpong.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CCC5E5391A902E4B001DB438 /* 3DpongTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCC5E5471A902E4B001DB438 /* Build configuration list for PBXNativeTarget "3DpongTests" */;
+			buildPhases = (
+				CCC5E5361A902E4B001DB438 /* Sources */,
+				CCC5E5371A902E4B001DB438 /* Frameworks */,
+				CCC5E5381A902E4B001DB438 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCC5E53C1A902E4B001DB438 /* PBXTargetDependency */,
+			);
+			name = 3DpongTests;
+			productName = 3DpongTests;
+			productReference = CCC5E53A1A902E4B001DB438 /* 3DpongTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCC5E5191A902E4B001DB438 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Raubenblahblah;
+				TargetAttributes = {
+					CCC5E5201A902E4B001DB438 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					CCC5E5391A902E4B001DB438 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = CCC5E5201A902E4B001DB438;
+					};
+				};
+			};
+			buildConfigurationList = CCC5E51C1A902E4B001DB438 /* Build configuration list for PBXProject "3Dpong" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CCC5E5181A902E4B001DB438;
+			productRefGroup = CCC5E5221A902E4B001DB438 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCC5E5201A902E4B001DB438 /* 3Dpong */,
+				CCC5E5391A902E4B001DB438 /* 3DpongTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCC5E51F1A902E4B001DB438 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCC5E5301A902E4B001DB438 /* Main.storyboard in Resources */,
+				CCC5E5351A902E4B001DB438 /* LaunchScreen.xib in Resources */,
+				CCCAA3901A905D2000CBC6C2 /* ball.png in Resources */,
+				CCC5E5321A902E4B001DB438 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCC5E5381A902E4B001DB438 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCC5E51D1A902E4B001DB438 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCC5E54F1A9031F2001DB438 /* paddleView.m in Sources */,
+				CCC5E52D1A902E4B001DB438 /* ViewController.m in Sources */,
+				CCC5E52A1A902E4B001DB438 /* AppDelegate.m in Sources */,
+				CCCAA3941A90719C00CBC6C2 /* pongModel.m in Sources */,
+				CCC5E5271A902E4B001DB438 /* main.m in Sources */,
+				CCC5E5551A903ACF001DB438 /* ballView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCC5E5361A902E4B001DB438 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCC5E5411A902E4B001DB438 /* _DpongTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CCC5E53C1A902E4B001DB438 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCC5E5201A902E4B001DB438 /* 3Dpong */;
+			targetProxy = CCC5E53B1A902E4B001DB438 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CCC5E52E1A902E4B001DB438 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCC5E52F1A902E4B001DB438 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CCC5E5331A902E4B001DB438 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCC5E5341A902E4B001DB438 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CCC5E5421A902E4B001DB438 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CCC5E5431A902E4B001DB438 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CCC5E5451A902E4B001DB438 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = 3Dpong/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CCC5E5461A902E4B001DB438 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = 3Dpong/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CCC5E5481A902E4B001DB438 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = 3DpongTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/3Dpong.app/3Dpong";
+			};
+			name = Debug;
+		};
+		CCC5E5491A902E4B001DB438 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = 3DpongTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/3Dpong.app/3Dpong";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCC5E51C1A902E4B001DB438 /* Build configuration list for PBXProject "3Dpong" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCC5E5421A902E4B001DB438 /* Debug */,
+				CCC5E5431A902E4B001DB438 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCC5E5441A902E4B001DB438 /* Build configuration list for PBXNativeTarget "3Dpong" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCC5E5451A902E4B001DB438 /* Debug */,
+				CCC5E5461A902E4B001DB438 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCC5E5471A902E4B001DB438 /* Build configuration list for PBXNativeTarget "3DpongTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCC5E5481A902E4B001DB438 /* Debug */,
+				CCC5E5491A902E4B001DB438 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CCC5E5191A902E4B001DB438 /* Project object */;
+}
