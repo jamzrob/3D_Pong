@@ -1,5 +1,5 @@
 # 3D_Pong
-A "3-D" version of pong designed for IOS. 
+A "3-D" version of pong designed for IOS. Written in Objective-C.
 
 Control your paddle by rotating the device.
 
